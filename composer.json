@@ -1,0 +1,23 @@
+{
+    "name": "laravel/laravel",
+    "type": "project",
+    "description": "Design Patterns Example.",
+    "keywords": ["design patterns"],
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Behaviour\\": "Behaviour/",
+            "Creational\\": "Creational/",
+            "Structural\\": "Structural/"
+        },
+        "files": [
+            "Helpers/Helper.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
